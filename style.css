@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+}
+/* header style */
+header {
+  width: 100vw;
+  height: 115px;
+  margin: auto;
+  background-color: #333c83;
+  z-index: 1;
+}
+.logo {
+  display: inline-block;
+  width: 10em;
+  height: 10em;
+  background-image: url("images/astronaut-helmet.jpg");
+  background-size: contain;
+  border-radius: 50%;
+  padding: 1em;
+  margin: 1em;
+}
+
+nav {
+  display: block;
+  width: 45em;
+  float: right;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1.5em;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 2.4em;
+  color: #f24a72;
+}
+nav ul li a:hover {
+  color: #f0a500;
+}
+/* body {
+  background-color: #f24a72;
+  opacity: 0.6;
+} */
+
+/* main style */
+main {
+  width: 114em;
+  margin: auto;
+  /* background-color: #f0a500; */
+  opacity: 0.8;
+}
+.main-title {
+  color: #333c83;
+  font-size: 3.6em;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 0.5em;
+  padding: 1em;
+  margin: 1em;
+}
+
+.box-1 {
+  width: 33%;
+  display: inline-block;
+  padding: 0.5em;
+  text-align: center;
+  font-size: 2.4em;
+  border: 1px solid #333c83;
+  border-radius: 1em;
+}
+.box-1:hover {
+  cursor: pointer;
+  box-shadow: 10px 7px 10px rgba(black, 0.5);
+  transform: translatey(-1em);
+  background-color: #333c83;
+  color: #fff;
+  transition: all 0.4s;
+}
