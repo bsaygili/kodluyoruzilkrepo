@@ -1,0 +1,23 @@
+
+Proje 3
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.
+
+step 1: root is 6, left 4, right 8
+step 2: root is 4, left 3, right 5
+step 3: root is 8, left 7, right 9
+step 4: root is 3, left 1, right empty
+step 2: root is 1, left 0, right 2
+
+
+
+               [6]
+		       /         \		      
+	    [4]             [8]
+	   /   \          /    \
+	[3]     [5]     [7]    [9]
+         /
+       [1]
+      /   \
+     [0]  [2] 
